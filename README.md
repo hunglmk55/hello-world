@@ -1,7 +1,7 @@
 # hello-world
 
 the first project
-im hung.im 26.
+im hung im 29.
 #!/usr/bin/env bash
 
 { # this ensures the entire script is downloaded #
@@ -24,14 +24,14 @@ nvm_latest_version() {
 echo "v0.34.0"
 }
 
-nvm_profile_is_bash_or_zsh() {
+nvm*profile_is_bash_or_zsh() {
 local TEST_PROFILE
 TEST_PROFILE="${1-}"
   case "${TEST_PROFILE-}" in
-_"/.bashrc" | _"/.bash_profile" | _"/.zshrc")
+*"/.bashrc" | _"/.bash_profile" | _"/.zshrc")
 return
 ;;
-_)
+\_)
 return 1
 ;;
 esac
