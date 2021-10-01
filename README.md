@@ -1,7 +1,12 @@
 # hello-world
 
 the first project
+<<<<<<< Updated upstream
 im hung.im 26.
+=======
+Im livingg in Ha Noi City
+im hung im 29.
+>>>>>>> Stashed changes
 #!/usr/bin/env bash
 
 { # this ensures the entire script is downloaded #
